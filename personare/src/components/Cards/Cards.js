@@ -1,22 +1,25 @@
 import React, { Component } from "react";
-// import styled from "styled-components";
+import { CardContainer, MainContainer, OuterContainer } from "./styled";
 import axios from "axios";
 
 export default class Cards extends Component {
   state = {
     tarotCards: [],
+    imagesUrl: "",
+    imageBackCard: "",
   };
 
   componentDidMount() {
-    this.getCards()
+    this.getCards();
   }
 
   getCards = () => {
     axios
-      .get('./tarot.json')
+      .get("./tarot.json")
       .then((response) => {
-        console.log(response);
         this.setState({ tarotCards: response.data.cards });
+        this.setState({ imagesUrl: response.data.imagesUrl });
+        this.setState({ imageBackCard: response.data.imageBackCard });
       })
       .catch((error) => {
         console.log(error.response.data.error);
@@ -25,10 +28,19 @@ export default class Cards extends Component {
 
   render() {
     const cardsList = this.state.tarotCards.map((item) => {
-      return <h1>{item.name}</h1>;
+      console.log(this.state.imagesUrl + item.image);
+      return (
+        <CardContainer
+          key={item.name}
+          backgroundImage={this.state.imagesUrl + item.image}
+        ></CardContainer>
+      );
     });
 
-    return <div>{cardsList}</div>;
+    return (
+      <OuterContainer>
+        <MainContainer>{cardsList}</MainContainer>
+      </OuterContainer>
+    );
   }
 }
-
