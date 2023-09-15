@@ -3,7 +3,7 @@ import { CardContainer, MainContainer, OuterContainer } from "./styled";
 import { CardContext } from "../../contexts/CardContext";
 
 const Card = () => {
-  const { tarotCards, imagesUrl, imageBackCard, flip } =
+  const { tarotCards, imagesUrl, imageBackCard, isFlippedFront } =
     useContext(CardContext);
 
   return (
@@ -13,7 +13,7 @@ const Card = () => {
           return (
             <CardContainer
               key={item.name}
-              backgroundImage={imagesUrl + item.image}
+              backgroundImage={isFlippedFront ? imagesUrl + item.image : imageBackCard}
             ></CardContainer>
           );
         })}
