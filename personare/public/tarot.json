@@ -3,316 +3,394 @@
   "imageBackCard": "https://dkw5ssdvaqf8l.cloudfront.net/static/psr/br/framework/yii/images/content/pt-br/product/tarot/marselha/back-blue-card.png",
   "cards": [
     {
-      "name": "O MAGO",
-      "image": "arcano1.jpg"
+      "name": "The Magician",
+      "image": "arcano1.jpg",
+      "description": "The Magician represents the power of transformation and manifestation."
     },
     {
-      "name": "A SACERDOTISA",
-      "image": "arcano2.jpg"
+      "name": "The High Priestess",
+      "image": "arcano2.jpg",
+      "description": "The High Priestess symbolizes intuition and the unknown."
     },
     {
-      "name": "A IMPERATRIZ",
-      "image": "arcano3.jpg"
+      "name": "The Empress",
+      "image": "arcano3.jpg",
+      "description": "The Empress signifies fertility, nurturing, and abundance."
     },
     {
-      "name": "O IMPERADOR",
-      "image": "arcano4.jpg"
+      "name": "The Emperor",
+      "image": "arcano4.jpg",
+      "description": "The Emperor represents authority and leadership."
     },
     {
-      "name": "O PAPA",
-      "image": "arcano5.jpg"
+      "name": "The Hierophant",
+      "image": "arcano5.jpg",
+      "description": "The Hierophant symbolizes tradition and spiritual guidance."
     },
     {
-      "name": "OS ENAMORADOS",
-      "image": "arcano6.jpg"
+      "name": "The Lovers",
+      "image": "arcano6.jpg",
+      "description": "The Lovers represent choices, partnerships, and relationships."
     },
     {
-      "name": "O CARRO",
-      "image": "arcano7.jpg"
+      "name": "The Chariot",
+      "image": "arcano7.jpg",
+      "description": "The Chariot symbolizes determination and overcoming obstacles."
     },
     {
-      "name": "A JUSTIÇA",
-      "image": "arcano8.jpg"
+      "name": "Justice",
+      "image": "arcano8.jpg",
+      "description": "Justice signifies fairness, balance, and legal matters."
     },
     {
-      "name": "O EREMITA",
-      "image": "arcano9.jpg"
+      "name": "The Hermit",
+      "image": "arcano9.jpg",
+      "description": "The Hermit represents introspection and seeking answers within."
     },
     {
-      "name": "A RODA DA FORTUNA",
-      "image": "arcano10.jpg"
+      "name": "The Wheel of Fortune",
+      "image": "arcano10.jpg",
+      "description": "The Wheel of Fortune signifies cycles and change."
     },
     {
-      "name": "A FORÇA",
-      "image": "arcano11.jpg"
+      "name": "Strength",
+      "image": "arcano11.jpg",
+      "description": "Strength represents inner courage and resilience."
     },
     {
-      "name": "O HOMEM PENDURADO",
-      "image": "arcano12.jpg"
+      "name": "The Hanged Man",
+      "image": "arcano12.jpg",
+      "description": "The Hanged Man symbolizes surrender and seeing things from a different perspective."
     },
     {
-      "name": "A MORTE",
-      "image": "arcano13.jpg"
+      "name": "Death",
+      "image": "arcano13.jpg",
+      "description": "Death signifies transformation and letting go of the old."
     },
     {
-      "name": "A TEMPERANÇA",
-      "image": "arcano14.jpg"
+      "name": "Temperance",
+      "image": "arcano14.jpg",
+      "description": "Temperance represents balance and harmony."
     },
     {
-      "name": "O DIABO",
-      "image": "arcano15.jpg"
+      "name": "The Devil",
+      "image": "arcano15.jpg",
+      "description": "The Devil symbolizes temptation and materialism."
     },
     {
-      "name": "A TORRE",
-      "image": "arcano16.jpg"
+      "name": "The Tower",
+      "image": "arcano16.jpg",
+      "description": "The Tower represents sudden change and upheaval."
     },
     {
-      "name": "A ESTRELA",
-      "image": "arcano17.jpg"
+      "name": "The Star",
+      "image": "arcano17.jpg",
+      "description": "The Star signifies hope, inspiration, and guidance."
     },
     {
-      "name": "A LUA",
-      "image": "arcano18.jpg"
+      "name": "The Moon",
+      "image": "arcano18.jpg",
+      "description": "The Moon symbolizes emotions, intuition, and the subconscious."
     },
     {
-      "name": "O SOL",
-      "image": "arcano19.jpg"
+      "name": "The Sun",
+      "image": "arcano19.jpg",
+      "description": "The Sun represents joy, clarity, and success."
     },
     {
-      "name": "O JULGAMENTO",
-      "image": "arcano20.jpg"
+      "name": "Judgment",
+      "image": "arcano20.jpg",
+      "description": "Judgment signifies self-reflection and new beginnings."
     },
     {
-      "name": "O MUNDO",
-      "image": "arcano21.jpg"
+      "name": "The World",
+      "image": "arcano21.jpg",
+      "description": "The World represents completion and fulfillment."
     },
     {
-      "name": "O LOUCO",
-      "image": "arcano22.jpg"
+      "name": "The Fool",
+      "image": "arcano22.jpg",
+      "description": "The Fool symbolizes spontaneity and taking risks."
     },
     {
-      "name": "ÀS DE COPAS",
-      "image": "arcano23.jpg"
+      "name": "Ace of Cups",
+      "image": "arcano23.jpg",
+      "description": "Ace of Cups signifies new emotional beginnings."
     },
     {
-      "name": "2 DE COPAS",
-      "image": "arcano24.jpg"
+      "name": "Two of Cups",
+      "image": "arcano24.jpg",
+      "description": "Two of Cups represents partnerships and harmony."
     },
     {
-      "name": "3 DE COPAS",
-      "image": "arcano25.jpg"
+      "name": "Three of Cups",
+      "image": "arcano25.jpg",
+      "description": "Three of Cups signifies celebration and friendships."
     },
     {
-      "name": "4 DE COPAS",
-      "image": "arcano26.jpg"
+      "name": "Four of Cups",
+      "image": "arcano26.jpg",
+      "description": "Four of Cups represents contemplation and introspection."
     },
     {
-      "name": "5 DE COPAS",
-      "image": "arcano27.jpg"
+      "name": "Five of Cups",
+      "image": "arcano27.jpg",
+      "description": "Five of Cups signifies disappointment and loss."
     },
     {
-      "name": "6 DE COPAS",
-      "image": "arcano28.jpg"
+      "name": "Six of Cups",
+      "image": "arcano28.jpg",
+      "description": "Six of Cups represents nostalgia and happy memories."
     },
     {
-      "name": "7 DE COPAS",
-      "image": "arcano29.jpg"
+      "name": "Seven of Cups",
+      "image": "arcano29.jpg",
+      "description": "Seven of Cups signifies imagination and choices."
     },
     {
-      "name": "8 DE COPAS",
-      "image": "arcano30.jpg"
+      "name": "Eight of Cups",
+      "image": "arcano30.jpg",
+      "description": "Eight of Cups represents leaving the past behind."
     },
     {
-      "name": "9 DE COPAS",
-      "image": "arcano31.jpg"
+      "name": "Nine of Cups",
+      "image": "arcano31.jpg",
+      "description": "Nine of Cups signifies wishes fulfilled."
     },
     {
-      "name": "10 DE COPAS",
-      "image": "arcano32.jpg"
+      "name": "Ten of Cups",
+      "image": "arcano32.jpg",
+      "description": "Ten of Cups represents happiness and family."
     },
     {
-      "name": "PRINCESA DE COPAS",
-      "image": "arcano33.jpg"
+      "name": "Princess of Cups",
+      "image": "arcano33.jpg",
+      "description": "Princess of Cups represents creativity and sensitivity."
     },
     {
-      "name": "CAVALEIRO DE COPAS",
-      "image": "arcano34.jpg"
+      "name": "Knight of Cups",
+      "image": "arcano34.jpg",
+      "description": "Knight of Cups signifies romance and emotional pursuit."
     },
     {
-      "name": "RAINHA DE COPAS",
-      "image": "arcano35.jpg"
+      "name": "Queen of Cups",
+      "image": "arcano35.jpg",
+      "description": "Queen of Cups represents compassion and intuition."
     },
     {
-      "name": "REI DE COPAS",
-      "image": "arcano36.jpg"
+      "name": "King of Cups",
+      "image": "arcano36.jpg",
+      "description": "King of Cups signifies emotional maturity and balance."
     },
     {
-      "name": "ÀS DE ESPADAS",
-      "image": "arcano37.jpg"
+      "name": "Ace of Swords",
+      "image": "arcano37.jpg",
+      "description": "Ace of Swords represents clarity and truth."
     },
     {
-      "name": "2 DE ESPADAS ,",
-      "image": "arcano38.jpg"
+      "name": "Two of Swords",
+      "image": "arcano38.jpg",
+      "description": "Two of Swords signifies decisions and challenges."
     },
     {
-      "name": "3 DE ESPADAS",
-      "image": "arcano39.jpg"
+      "name": "Three of Swords",
+      "image": "arcano39.jpg",
+      "description": "Three of Swords represents heartbreak and sorrow."
     },
     {
-      "name": "4 DE ESPADAS",
-      "image": "arcano40.jpg"
+      "name": "Four of Swords",
+      "image": "arcano40.jpg",
+      "description": "Four of Swords signifies rest and recovery."
     },
     {
-      "name": "5 DE ESPADAS",
-      "image": "arcano41.jpg"
+      "name": "Five of Swords",
+      "image": "arcano41.jpg",
+      "description": "Five of Swords represents conflict and competition."
     },
     {
-      "name": "6 DE ESPADAS",
-      "image": "arcano42.jpg"
+      "name": "Six of Swords",
+      "image": "arcano42.jpg",
+      "description": "Six of Swords signifies transition and moving forward."
     },
     {
-      "name": "7 DE ESPADAS",
-      "image": "arcano43.jpg"
+      "name": "Seven of Swords",
+      "image": "arcano43.jpg",
+      "description": "Seven of Swords represents deceit and strategy."
     },
     {
-      "name": "8 DE ESPADAS",
-      "image": "arcano44.jpg"
+      "name": "Eight of Swords",
+      "image": "arcano44.jpg",
+      "description": "Eight of Swords signifies feeling trapped and restricted."
     },
     {
-      "name": "9 DE ESPADAS",
-      "image": "arcano45.jpg"
+      "name": "Nine of Swords",
+      "image": "arcano45.jpg",
+      "description": "Nine of Swords represents anxiety and fear."
     },
     {
-      "name": "10 DE ESPADAS",
-      "image": "arcano46.jpg"
+      "name": "Ten of Swords",
+      "image": "arcano46.jpg",
+      "description": "Ten of Swords signifies a painful ending."
     },
     {
-      "name": "PRINCESA DE ESPADAS",
-      "image": "arcano47.jpg"
+      "name": "Princess of Swords",
+      "image": "arcano47.jpg",
+      "description": "Princess of Swords represents truth-seeking and curiosity."
     },
     {
-      "name": "CAVALEIRO DE ESPADAS",
-      "image": "arcano48.jpg"
+      "name": "Knight of Swords",
+      "image": "arcano48.jpg",
+      "description": "Knight of Swords signifies determination and action."
     },
     {
-      "name": "RAINHA DE ESPADAS",
-      "image": "arcano49.jpg"
+      "name": "Queen of Swords",
+      "image": "arcano49.jpg",
+      "description": "Queen of Swords represents clarity and independence."
     },
     {
-      "name": "REI DE ESPADAS",
-      "image": "arcano50.jpg"
+      "name": "King of Swords",
+      "image": "arcano50.jpg",
+      "description": "King of Swords signifies authority and intellectual power."
     },
     {
-      "name": "ÀS DE PAUS",
-      "image": "arcano51.jpg"
+      "name": "Ace of Wands",
+      "image": "arcano51.jpg",
+      "description": "Ace of Wands represents inspiration and new beginnings."
     },
     {
-      "name": "2 DE PAUS",
-      "image": "arcano52.jpg"
+      "name": "Two of Wands",
+      "image": "arcano52.jpg",
+      "description": "Two of Wands signifies planning and potential."
     },
     {
-      "name": "3 DE PAUS",
-      "image": "arcano53.jpg"
+      "name": "Three of Wands",
+      "image": "arcano53.jpg",
+      "description": "Three of Wands represents expansion and foresight."
     },
     {
-      "name": "4 DE PAUS",
-      "image": "arcano54.jpg"
+      "name": "Four of Wands",
+      "image": "arcano54.jpg",
+      "description": "Four of Wands signifies celebration and harmony."
     },
     {
-      "name": "5 DE PAUS",
-      "image": "arcano55.jpg"
+      "name": "Five of Wands",
+      "image": "arcano55.jpg",
+      "description": "Five of Wands represents competition and challenges."
     },
     {
-      "name": "6 DE PAUS",
-      "image": "arcano56.jpg"
+      "name": "Six of Wands",
+      "image": "arcano56.jpg",
+      "description": "Six of Wands signifies victory and recognition."
     },
     {
-      "name": "7 DE PAUS",
-      "image": "arcano57.jpg"
+      "name": "Seven of Wands",
+      "image": "arcano57.jpg",
+      "description": "Seven of Wands represents determination and defense."
     },
     {
-      "name": "8 DE PAUS",
-      "image": "arcano58.jpg"
+      "name": "Eight of Wands",
+      "image": "arcano58.jpg",
+      "description": "Eight of Wands signifies swift action and communication."
     },
     {
-      "name": "9 DE PAUS",
-      "image": "arcano59.jpg"
+      "name": "Nine of Wands",
+      "image": "arcano59.jpg",
+      "description": "Nine of Wands represents resilience and strength."
     },
     {
-      "name": "10 DE PAUS",
-      "image": "arcano60.jpg"
+      "name": "Ten of Wands",
+      "image": "arcano60.jpg",
+      "description": "Ten of Wands signifies burden and responsibility."
     },
     {
-      "name": "PRINCESA DE PAUS",
-      "image": "arcano61.jpg"
+      "name": "Princess of Wands",
+      "image": "arcano61.jpg",
+      "description": "Princess of Wands represents enthusiasm and exploration."
     },
     {
-      "name": "CAVALEIRO DE PAUS",
-      "image": "arcano62.jpg"
+      "name": "Knight of Wands",
+      "image": "arcano62.jpg",
+      "description": "Knight of Wands signifies adventure and spontaneity."
     },
     {
-      "name": "RAINHA DE PAUS",
-      "image": "arcano63.jpg"
+      "name": "Queen of Wands",
+      "image": "arcano63.jpg",
+      "description": "Queen of Wands represents confidence and independence."
     },
     {
-      "name": "REI DE PAUS",
-      "image": "arcano64.jpg"
+      "name": "King of Wands",
+      "image": "arcano64.jpg",
+      "description": "King of Wands signifies leadership and determination."
     },
     {
-      "name": "ÀS DE OUROS",
-      "image": "arcano65.jpg"
+      "name": "Ace of Pentacles",
+      "image": "arcano65.jpg",
+      "description": "Ace of Pentacles represents material abundance and opportunity."
     },
     {
-      "name": "2 DE OUROS",
-      "image": "arcano66.jpg"
+      "name": "Two of Pentacles",
+      "image": "arcano66.jpg",
+      "description": "Two of Pentacles signifies balance and adaptability."
     },
     {
-      "name": "3 DE OUROS",
-      "image": "arcano67.jpg"
+      "name": "Three of Pentacles",
+      "image": "arcano67.jpg",
+      "description": "Three of Pentacles represents teamwork and craftsmanship."
     },
     {
-      "name": "4 DE OUROS",
-      "image": "arcano68.jpg"
+      "name": "Four of Pentacles",
+      "image": "arcano68.jpg",
+      "description": "Four of Pentacles signifies security and possessiveness."
     },
     {
-      "name": "5 DE OUROS",
-      "image": "arcano69.jpg"
+      "name": "Five of Pentacles",
+      "image": "arcano69.jpg",
+      "description": "Five of Pentacles represents hardship and financial struggles."
     },
     {
-      "name": "6 DE OUROS",
-      "image": "arcano70.jpg"
+      "name": "Six of Pentacles",
+      "image": "arcano70.jpg",
+      "description": "Six of Pentacles signifies generosity and charity."
     },
     {
-      "name": "7 DE OUROS",
-      "image": "arcano71.jpg"
+      "name": "Seven of Pentacles",
+      "image": "arcano71.jpg",
+      "description": "Seven of Pentacles represents patience and hard work."
     },
     {
-      "name": "8 DE OUROS",
-      "image": "arcano72.jpg"
+      "name": "Eight of Pentacles",
+      "image": "arcano72.jpg",
+      "description": "Eight of Pentacles signifies dedication and craftsmanship."
     },
     {
-      "name": "9 DE OUROS",
-      "image": "arcano73.jpg"
+      "name": "Nine of Pentacles",
+      "image": "arcano73.jpg",
+      "description": "Nine of Pentacles represents self-sufficiency and luxury."
     },
     {
-      "name": "10 DE OUROS",
-      "image": "arcano74.jpg"
+      "name": "Ten of Pentacles",
+      "image": "arcano74.jpg",
+      "description": "Ten of Pentacles signifies wealth and family legacy."
     },
     {
-      "name": "PRINCESA DE OUROS",
-      "image": "arcano75.jpg"
+      "name": "Princess of Pentacles",
+      "image": "arcano75.jpg",
+      "description": "Princess of Pentacles represents practicality and diligence."
     },
     {
-      "name": "CAVALEIRO DE OUROS",
-      "image": "arcano76.jpg"
+      "name": "Knight of Pentacles",
+      "image": "arcano76.jpg",
+      "description": "Knight of Pentacles signifies reliability and hard work."
     },
     {
-      "name": "RAINHA DE OUROS",
-      "image": "arcano77.jpg"
+      "name": "Queen of Pentacles",
+      "image": "arcano77.jpg",
+      "description": "Queen of Pentacles represents nurturing and abundance."
     },
     {
-      "name": "REI DE OUROS",
-      "image": "arcano78.jpg"
+      "name": "King of Pentacles",
+      "image": "arcano78.jpg",
+      "description": "King of Pentacles signifies financial success and responsibility."
     }
   ]
 }

@@ -9,6 +9,9 @@ const CardProvider = ({ children }) => {
     const [imageBackCard, setImageBackCard] = useState("");
     const [isFlippedFront, setIsFlippedFront] = useState(true);
     const [loading, setLoading] = useState(true); // Add a loading state
+    const [pickedCard, setPickedCard] = useState({})
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const [gameStarted, setGameStarted] = useState(false)
 
     useEffect(() => {
         getCards();
@@ -26,8 +29,6 @@ const CardProvider = ({ children }) => {
         }
     }
 
-
-
     const sortTarotCards = () => {
         const shuffledCards = [...tarotCards];
         shuffledCards.sort(() => Math.random() - 0.5);
@@ -36,7 +37,7 @@ const CardProvider = ({ children }) => {
 
     // Render children only when data is available
     return (
-        <CardContext.Provider value={{ tarotCards, imagesUrl, imageBackCard, isFlippedFront, setIsFlippedFront, sortTarotCards }}>
+        <CardContext.Provider value={{ tarotCards, imagesUrl, imageBackCard, isFlippedFront, pickedCard, isModalOpen,gameStarted, setIsFlippedFront, sortTarotCards, setPickedCard, setIsModalOpen, setGameStarted }}>
             {!loading && children}
         </CardContext.Provider>
     )

@@ -5,17 +5,18 @@ import { CardContext } from "../../contexts/CardContext";
 
 const Button  = () => {
 
-    const { tarotCards, imagesUrl, imageBackCard, isFlippedFront, setIsFlippedFront, sortTarotCards } =
+    const { tarotCards, imagesUrl, imageBackCard, isFlippedFront, setIsFlippedFront, sortTarotCards, setGameStarted } =
     useContext(CardContext);
 
     const startGame = () => {
         sortTarotCards()
         setIsFlippedFront(false)
+        setGameStarted(true)
     }
 
     return (
             <div>
-                <button onClick={startGame}>Iniciar</button>
+                <button onClick={startGame}>Start</button>
             </div>
         )
 }
