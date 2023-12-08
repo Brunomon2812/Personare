@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const OuterContainer = styled.div`
-  width: 100%;
+  width: 80%;
   display: flex;
+  margin: auto;
   justify-content: center;
 `;
 
@@ -26,7 +27,7 @@ export const MainContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-evenly; */
-  width: 80%;
+  width: 100%;
 `;
 
 export const ModalOverlay = styled.div`

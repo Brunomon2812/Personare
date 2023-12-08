@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Cards from "./components/Cards/Cards";
-import Button from "./components/Button/Button";
+import Main from "./components/Main/Main";
 import CardProvider from "./contexts/CardContext";
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
     <div>
       <CardProvider>
         <Header></Header>
-        <Button></Button>
-        <Cards></Cards>
+        <Main></Main>
       </CardProvider>
     </div>
   );
