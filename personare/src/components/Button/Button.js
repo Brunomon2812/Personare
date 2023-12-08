@@ -1,6 +1,6 @@
 import React, { Component, useContext } from 'react'
-import styled from 'styled-components'
 import { CardContext } from "../../contexts/CardContext";
+import { ButtonContainer, StyledButton } from './styled';
 
 
 const Button  = () => {
@@ -15,9 +15,9 @@ const Button  = () => {
     }
 
     return (
-            <div>
-                <button onClick={startGame}>Start</button>
-            </div>
+            <ButtonContainer>
+                <StyledButton onClick={startGame}>Sort Cards</StyledButton>
+            </ButtonContainer>
         )
 }
 
